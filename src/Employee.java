@@ -5,7 +5,7 @@ public class Employee {
     private int id;
     private static int country = 1;
 
-    public Employee(String nameSurname, int department, int salary) {
+    public Employee(String nameSurname, int department, int salary, int id) {
        if (department < 1 || department > 6) {
            throw new IllegalThreadStateException("Деартаментов только 5");
         }
