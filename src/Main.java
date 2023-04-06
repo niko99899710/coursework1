@@ -3,16 +3,16 @@ public class Main {
     private static Employee[] worker = new Employee[10];
 
     public static void main(String[] args) {
-        worker[0] = new Employee("Марк Алексей Андреевич", 1, 89000,1);
-        worker[1] = new Employee("Аванесян Артур Дмитриевич", 2, 5000, 2);
-        worker[2] = new Employee("Кирильчук Арсен Петрович", 3, 3000, 3);
-        worker[3] = new Employee("Де Юлия Ким", 4, 40_000, 4);
-        worker[4] = new Employee("Васильев Армен Артурович", 4, 500_000, 5);
-        worker[5] = new Employee("Юрьевич Антон  Штац", 5, 60_000, 6);
-        worker[6] = new Employee("Муров Евгений Александрович", 2, 70_000, 7);
-        worker[7] = new Employee("Киров Сергей Никулин", 3, 8000, 8);
-        worker[8] = new Employee("Ландешев Петров Красов", 4, 9000, 9);
-        worker[9] = new Employee("Ильна Амина Васильевна", 1, 100_000, 10);
+        worker[0] = new Employee("Марк Алексей Андреевич", 1, 89000);
+        worker[1] = new Employee("Аванесян Артур Дмитриевич", 2, 5000);
+        worker[2] = new Employee("Кирильчук Арсен Петрович", 3, 3000);
+        worker[3] = new Employee("Де Юлия Ким", 4, 40_000);
+        worker[4] = new Employee("Васильев Армен Артурович", 4, 500_000);
+        worker[5] = new Employee("Юрьевич Антон  Штац", 5, 60_000);
+        worker[6] = new Employee("Муров Евгений Александрович", 2, 70_000);
+        worker[7] = new Employee("Киров Сергей Никулин", 3, 8000);
+        worker[8] = new Employee("Ландешев Петров Красов", 4, 9000);
+        worker[9] = new Employee("Ильна Амина Васильевна", 1, 100_000);
 
 
         printWorker(worker);
@@ -170,24 +170,6 @@ public class Main {
                 System.out.println("Все сотрудники ЗП, у которых ниже установленного параметра = " + employee.getSalary());
             }
         }
-    }
-
-    public static void Employee11 (String[] args) {
-
-        EmployeeBook employeeBook = new EmployeeBook(2);
-        employeeBook.addEmployee(new Employee("Марк Алексей Андреевич", 1, 89000,1));
-        employeeBook.addEmployee(new Employee("Аванесян Артур Дмитриевич", 2, 5000, 2));
-        employeeBook.addEmployee(new Employee("Кирильчук Арсен Петрович", 3, 3000, 3));
-        employeeBook.addEmployee(new Employee("Де Юлия Ким", 4, 40_000, 4));
-        employeeBook.addEmployee(new Employee("Васильев Армен Артурович", 4, 500_000, 5));
-        employeeBook.addEmployee(new Employee("Юрьевич Антон  Штац", 5, 60_000, 6));
-        employeeBook.addEmployee(new Employee("Муров Евгений Александрович", 2, 70_000, 7));
-        employeeBook.addEmployee(new Employee("Киров Сергей Никулин", 3, 8000, 8));
-        employeeBook.addEmployee(new Employee("Ландешев Петров Красов", 4, 9000, 9));
-        employeeBook.addEmployee(new Employee("Ильна Амина Васильевна", 1, 100_000, 10));
-
-
-        System.out.println();
     }
 
 

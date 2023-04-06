@@ -5,9 +5,9 @@ public class Employee {
     private int id;
     private static int country = 1;
 
-    public Employee(String nameSurname, int department, int salary, int id) {
+    public Employee(String nameSurname, int department, int salary) {
        if (department < 1 || department > 6) {
-           throw new IllegalThreadStateException("Деартаментов только 5");
+           throw new IllegalArgumentException("Деартаментов только 5");
         }
         this.nameSurname = nameSurname;
         this.department = department;
